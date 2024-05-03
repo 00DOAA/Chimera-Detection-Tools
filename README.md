@@ -18,14 +18,18 @@ This script uses USEARCH and Mothur tools to find chimeric sequences in FASTA fi
 3. Make sure you have the Silva database file for reference sequences.
 4. Specify the path to the Silva database file in the script or provide it as a command-line argument.
 
+# Understanding Mock Numbers
+
+The script's numbers relate to particular mock datasets. You will need to adjust the script's numbers if you wish to use it with different mock datasets.
+
 #  Excute the script
 
 1. Open a terminal.
 2. Navigate to the directory where the script is located.
-3. Run the script to detect chimeric sequences in FASTA files.
+3. Run the script with the necessary arguments provided, such as the directories' paths that hold the count tables and FASTA files, the Mothur and USEARCH executable paths, and the Silva database file path.
 
 # Usage Example:
-## cutom path
+## custom path
 Users can run the script with the desired paths like the following:
 ```
 ./script.sh -m /path/to/mothur -u /path/to/usearch -s /path/to/silva.fasta
