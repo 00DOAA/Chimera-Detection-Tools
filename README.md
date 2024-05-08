@@ -32,7 +32,7 @@ The script's numbers relate to particular mock datasets. You will need to adjust
 ## custom path
 Users can run the script with the desired paths like the following:
 ```
-./script.sh -m /path/to/mothur -u /path/to/usearch -s /path/to/silva.fasta
+bash script.sh path_to_fasta_file path_to_count_table_file path_to_usearch path_to_mothur path_to_silva
 
 ```
 
